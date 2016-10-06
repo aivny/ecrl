@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<br>
+
+<head>
+
+{%load staticfiles%}
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="http://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+<title>Welcome to ECRL!</title>
+<style type="text/css">
+
+body{width:100%;overflow:hidden;}
+.nav{background:#f0f0f0;display:block;width:70%;}
+#content{width:70%;height:100%;background:#f0f0f0}
+.banner{width:95%;}
+
+a:link {color: #000000;text-decoration: none;}
+a:visited {
+	color: #000000;
+ 	text-decoration: none;}
+</style>
+
+
+
+
+</head>
+
+<body>
+<div class="banner"  align="right">
+<img src="{% static 'image10.png' %}" class="img-responsive" style="width:30%;"></div>
+
+
+<div align="center">
+<div class="nav" align="center">
+<ul>
+	<h4>
+	<a id="home" href="/">Home</a>
+	||<a id="join" href="/join">Join us</a>
+	||<a id="about" href="/about">About us</a>
+	||<a id="download" href="/download">Download Linux</a>
+	
+	<h4>
+</ul>
+</div>
+</div>
+
+</body>
+
+
+
+</html>

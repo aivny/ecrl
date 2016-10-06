@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+{%load staticfiles%}
+<head>
+<title>Welcome to ECRL!</title>
+<style type="text/css">
+
+body{width:100%;overflow:hidden;}
+.nav{background:#ff0;display:block;}
+.banner{width:100%;}
+</style>
+
+</head>
+
+<body>
+<div class="banner">
+<img src="{% static 'ecrl2.png' %}" style="width:30%;"></div>
+<h6>Every Computer Runs Linux.</h6>
+
+
+<div class="nav">
+<ul>
+	<h3>
+	<a href="#">Home</a>
+	<a href="#">Join us</a>
+	<a href="#">About us</a>
+	<a href="{% static 'LinuxDownload.html' %}">Download Linux</a>
+	<h3>
+</ul>
+</div>
+
+
+</body>
+
+
+
+</html>
